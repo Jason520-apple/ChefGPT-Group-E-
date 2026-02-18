@@ -1,4 +1,4 @@
-# 🍳 **ChefGPT**
+#  **ChefGPT**
 
 **ChefGPT** is a full-stack recipe meal planner web application that generates recipes based on ingredients entered by the user. Instead of searching multiple websites for meal ideas, users simply input the ingredients they already have, and ChefGPT returns a complete recipe with step-by-step cooking instructions.
 
@@ -6,7 +6,7 @@ ChefGPT helps reduce food waste, save time, and simplify meal planning.
 
 ---
 
-## 👥 **Authors**
+##  **Authors**
 
 * Ana Moron Cervantes
 * Opeoluwa Orisadahunsi
@@ -18,18 +18,18 @@ ChefGPT helps reduce food waste, save time, and simplify meal planning.
 
 ---
 
-## 🚀 **Features**
+##  **Features**
 
-* ✅ Ingredient-based recipe generation
-* ✅ Step-by-step cooking instructions
-* ✅ Clean and responsive user interface
-* ✅ Firebase backend integration
-* ✅ User authentication (if implemented)
-* ✅ Save and retrieve recipes
+*  Ingredient-based recipe generation
+*  Step-by-step cooking instructions
+*  Clean and responsive user interface
+*  Firebase backend integration
+*  User authentication (if implemented)
+*  Save and retrieve recipes
 
 ---
 
-## 🛠️ **Tech Stack**
+##  **Tech Stack**
 
 ### **Frontend**
 
@@ -45,7 +45,7 @@ ChefGPT helps reduce food waste, save time, and simplify meal planning.
 
 ---
 
-## 🧠 **How It Works**
+##  **How It Works**
 
 1. The user enters available ingredients into the input field.
 2. The application processes the ingredients.
@@ -55,7 +55,7 @@ ChefGPT helps reduce food waste, save time, and simplify meal planning.
 
 ---
 
-## 📂 **Project Structure**
+##  **Project Structure**
 
 ```
 ChefGPT/
@@ -69,9 +69,9 @@ ChefGPT/
 
 ---
 
-## ⚙️ **Installation & Setup**
+##  **Installation & Setup**
 
-### **1️⃣ Clone the Repository**
+### **1️ Clone the Repository**
 
 ```bash
 git clone https://github.com/yourusername/chefgpt.git
@@ -80,7 +80,7 @@ cd chefgpt
 
 ---
 
-### **2️⃣ Install Firebase CLI (If Needed)**
+### **2️ Install Firebase CLI (If Needed)**
 
 ```bash
 npm install -g firebase-tools
@@ -88,7 +88,7 @@ npm install -g firebase-tools
 
 ---
 
-### **3️⃣ Configure Firebase**
+### **3️ Configure Firebase**
 
 1. Go to the Firebase Console.
 
@@ -117,7 +117,7 @@ firebase.initializeApp(firebaseConfig);
 
 ---
 
-### **4️⃣ Run the Application**
+### **4️ Run the Application**
 
 **Option 1:**
 Open `index.html` directly in your browser.
@@ -132,7 +132,7 @@ firebase serve
 
 ---
 
-## 📸 **Screenshots**
+##  **Screenshots**
 
 ### **Home Page**
 
@@ -150,7 +150,7 @@ firebase serve
 
 ---
 
-## 🧑‍💻 **Usage Guidelines**
+##  **Usage Guidelines**
 
 * Enter ingredients separated by commas
 
@@ -161,7 +161,7 @@ firebase serve
 
 ---
 
-## 🤝 **Contribution Guidelines**
+##  **Contribution Guidelines**
 
 1. Fork the repository.
 2. Create a new branch:
@@ -186,16 +186,16 @@ git push origin feature-name
 
 ---
 
-## 🎯 **Future Improvements**
+##  **Future Improvements**
 
-* 🍽️ Nutrition and calorie tracking
-* 🧾 Grocery list generator
-* 🌎 Cuisine filtering
-* 📅 Weekly meal planning dashboard
-* 🤖 AI-enhanced recipe recommendations
+*  Nutrition and calorie tracking
+*  Grocery list generator
+*  Cuisine filtering
+*  Weekly meal planning dashboard
+*  AI-enhanced recipe recommendations
 
 ---
 
-## 📌 **Project Status**
+##  **Project Status**
 
-🟢 Active Development
+ Active Development
