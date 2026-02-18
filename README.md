@@ -35,13 +35,14 @@ ChefGPT helps reduce food waste, save time, and simplify meal planning.
 
 * **HTML**
 * **CSS**
-* **JavaScript**
+* **Python**
 
 ### **Backend / Cloud Services**
 
 * **Firebase Authentication**
 * **Firebase Firestore**
 * **Firebase Hosting**
+* **Gemini API**
 
 ---
 
@@ -51,7 +52,8 @@ ChefGPT helps reduce food waste, save time, and simplify meal planning.
 2. The application processes the ingredients.
 3. A matching recipe is generated.
 4. The recipe is displayed with cooking instructions.
-5. (Optional) The recipe can be saved to the user's account.
+5. An image is generated.
+6. (Features in progress): The recipe can be saved to the user's account.
 
 ---
 
