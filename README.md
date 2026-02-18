@@ -1,54 +1,63 @@
-🍳 ChefGPT
+# 🍳 **ChefGPT**
 
-ChefGPT is a full-stack web application that generates recipes based on ingredients provided by the user. Instead of searching endlessly for meals, users simply enter what they already have — and ChefGPT suggests a complete recipe.
+**ChefGPT** is a full-stack recipe meal planner web application that generates recipes based on ingredients entered by the user. Instead of searching multiple websites for meal ideas, users simply input the ingredients they already have, and ChefGPT returns a complete recipe with step-by-step cooking instructions.
 
-🚀 Features
+ChefGPT helps reduce food waste, save time, and simplify meal planning.
 
-🥕 Ingredient-based recipe generation
+---
 
-📋 Step-by-step cooking instructions
+## 👥 **Authors**
 
-🔥 Meal planning assistance
+* Ana Moron Cervantes
+* Opeoluwa Orisadahunsi
+* Favour Aloziem
+* Nicholas Watson
+* Jason Vo
+* RJ Cortez
+* Omieibi Harcourt
 
-💾 Firebase backend integration
+---
 
-🌐 Responsive web interface
+## 🚀 **Features**
 
-👤 User authentication (optional, if implemented)
+* ✅ Ingredient-based recipe generation
+* ✅ Step-by-step cooking instructions
+* ✅ Clean and responsive user interface
+* ✅ Firebase backend integration
+* ✅ User authentication (if implemented)
+* ✅ Save and retrieve recipes
 
-📱 Clean and intuitive UI
+---
 
-🛠️ Tech Stack
+## 🛠️ **Tech Stack**
 
-Frontend
+### **Frontend**
 
-HTML
+* **HTML**
+* **CSS**
+* **JavaScript**
 
-CSS
+### **Backend / Cloud Services**
 
-JavaScript
+* **Firebase Authentication**
+* **Firebase Firestore**
+* **Firebase Hosting**
 
-Backend / Database
+---
 
-Firebase (Authentication, Firestore, Hosting)
+## 🧠 **How It Works**
 
-Other Tools
+1. The user enters available ingredients into the input field.
+2. The application processes the ingredients.
+3. A matching recipe is generated.
+4. The recipe is displayed with cooking instructions.
+5. (Optional) The recipe can be saved to the user's account.
 
-Git & GitHub
+---
 
-Firebase CLI
+## 📂 **Project Structure**
 
-🧠 How It Works
-
-The user enters available ingredients into an input field.
-
-The application processes the ingredients.
-
-A matching recipe is generated and displayed.
-
-(Optional) The recipe can be saved to the user's account in Firebase.
-
-📂 Project Structure
+```
 ChefGPT/
 │
 ├── index.html
@@ -56,39 +65,44 @@ ChefGPT/
 ├── script.js
 ├── firebase-config.js
 └── README.md
+```
 
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
+---
+
+## ⚙️ **Installation & Setup**
+
+### **1️⃣ Clone the Repository**
+
+```bash
 git clone https://github.com/yourusername/chefgpt.git
 cd chefgpt
+```
 
-2️⃣ Install Firebase CLI (if needed)
+---
+
+### **2️⃣ Install Firebase CLI (If Needed)**
+
+```bash
 npm install -g firebase-tools
+```
 
-3️⃣ Initialize Firebase
-firebase login
-firebase init
+---
 
+### **3️⃣ Configure Firebase**
 
-Select:
+1. Go to the Firebase Console.
 
-Hosting
+2. Create a new project.
 
-Firestore (if used)
+3. Enable:
 
-Authentication (if used)
+   * Authentication (optional)
+   * Firestore Database
+   * Hosting
 
-4️⃣ Run Locally
+4. Create a file named `firebase-config.js` and add:
 
-You can simply open index.html in your browser
-OR use Firebase hosting:
-
-firebase serve
-
-🔐 Firebase Configuration
-
-Create a firebase-config.js file:
-
+```javascript
 const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
   authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
@@ -99,54 +113,89 @@ const firebaseConfig = {
 };
 
 firebase.initializeApp(firebaseConfig);
+```
 
-🎯 Future Improvements
+---
 
-🍽️ Nutrition tracking (calories, macros)
+### **4️⃣ Run the Application**
 
-🧾 Grocery list generator
+**Option 1:**
+Open `index.html` directly in your browser.
 
-🤖 AI-powered recipe suggestions
+**Option 2 (Firebase Hosting):**
 
-🗂️ Save favorite meals
+```bash
+firebase login
+firebase init
+firebase serve
+```
 
-🌎 Cuisine filters
+---
 
-📊 Meal prep weekly planner
+## 📸 **Screenshots**
 
-🧪 Example Use Case
+### **Home Page**
 
-Input:
+```
+(Add screenshot here: screenshots/home.png)
+```
 
-Chicken, rice, broccoli, garlic
+### **Generated Recipe Example**
 
+```
+(Add screenshot here: screenshots/recipe.png)
+```
 
-Output:
+*(Replace placeholders with actual images from your project.)*
 
-Garlic Chicken Stir Fry with Rice
-- Step 1: Season and cook chicken...
-- Step 2: Sauté broccoli and garlic...
-- Step 3: Combine and serve over rice...
+---
 
-📌 Why ChefGPT?
+## 🧑‍💻 **Usage Guidelines**
 
-ChefGPT solves the common problem of:
+* Enter ingredients separated by commas
 
-Wasting ingredients
+  * Example: `chicken, rice, garlic`
+* Click the **Generate Recipe** button.
+* Review the generated recipe.
+* Save the recipe (if logged in).
 
-Not knowing what to cook
+---
 
-Spending too much time searching for recipes
+## 🤝 **Contribution Guidelines**
 
-It simplifies meal planning into a quick and efficient experience.
+1. Fork the repository.
+2. Create a new branch:
 
-👨‍💻 Authors
+```bash
+git checkout -b feature-name
+```
 
-Ana Moron Cervantes
-Opeoluwa Orisadahunsi
-Favour Aloziem
-Nicholas Watson
-Jason Vo
-RJ Cortez
-Omieibi Harcourt
+3. Commit your changes:
 
+```bash
+git commit -m "Add feature description"
+```
+
+4. Push to your branch:
+
+```bash
+git push origin feature-name
+```
+
+5. Submit a Pull Request.
+
+---
+
+## 🎯 **Future Improvements**
+
+* 🍽️ Nutrition and calorie tracking
+* 🧾 Grocery list generator
+* 🌎 Cuisine filtering
+* 📅 Weekly meal planning dashboard
+* 🤖 AI-enhanced recipe recommendations
+
+---
+
+## 📌 **Project Status**
+
+🟢 Active Development
