@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results - ChefGPT</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Recipes for "{{ ingredients }}"</h1>
+
+        <ul>
+            {% for recipe in recipes %}
+                <li>{{ recipe }}</li>
+            {% endfor %}
+        </ul>
+
+        <a href="/">⬅ Try again</a>
+    </div>
+</body>
+</html>
