@@ -76,7 +76,7 @@ ChefGPT/
 ### **1️ Clone the Repository**
 
 ```bash
-git clone https://github.com/yourusername/chefgpt.git
+git clone https://github.com/Jason520-apple/ChefGPT-Group-E-.git
 cd chefgpt
 ```
 
