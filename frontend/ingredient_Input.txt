@@ -1,5 +1,3 @@
 #beginning of ingredient_Input frontend work
 
-hopefully this works
-
-Hopefully this works too
+added text to this code
